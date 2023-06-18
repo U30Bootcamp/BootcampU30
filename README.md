@@ -13,7 +13,7 @@ Takım Unity U30
 
 ## Ürün İsmi
 
---Galaktik Toplayıcı--
+Galaktik Toplayıcı
 
 ## Product Backlog URL
 
@@ -21,66 +21,67 @@ Takım Unity U30
 
 ## Ürün Açıklaması
 
-Galaktik Toplayıcı,Dünyada yaşamın son bulma tehlikesine karşı astronotumuz diğer gezegenlere keşfe gider.Çıktığı bu keşif yolculuğunda dünyada ihtiyaç olan su,toprak ve tohum malzemelerini ne kadar çok toplayıp dünyaya getirebilirse o kadar başarılı olacaktır.Bu görev süresince astronotumuzun bu malzemeleri toplaması kolay olmayacaktır.İlk defa keşfe gittiği bu gezegenlerde karşısına asit yağmurları,kara delikler,oksijen azalması,uzay aracının bozulması gibi bir çok sorun çıkacaktır.
+Galaktik Toplayıcı'daki astronotumuz, dünyada yaşamın son bulma tehlikesine karşı diğer gezegenlere keşfe gider. Çıktığı bu keşif yolculuğunda dünyada ihtiyaç olan su, toprak ve tohum malzemelerini ne kadar çok toplayıp dünyaya getirebilirse o kadar başarılı olacaktır. Bu görev süresince, astronotumuzun bu malzemeleri toplaması kolay olmayacaktır. Astronotumuzun ilk defa keşfe gittiği bu gezegenlerde karşısına meteor yağmurları, asit yağmurları, güçlü rüzgarlar ve mini kara delikler çıkacak. Bunların yanında yaşam destek ünitesi için gerekli oksijeni, suyu ve gıdasını da etraftan toplaması gerekecek.
 
-- **Oyunun birincil amacı**: Gezegenimizde yaşamın devamı için gerekli kaynaklarımızın bilinçsiz tüketimi sonucu kaynaklarımız azalmaktadır.Tasarladığımız oyun ile bu konuda farkındalık oluşturmak ve çevre bilincine katkı sunmak istiyoruz.
+Bu heyecan verici macerada oyuncular, astronotumuzun görevine yardımcı olmak için reflekslerini kullanmalı, doğru zamanda zıplamalı, engellerden kaçmalı ve kaynakları toplamak için stratejik hamleler yapmalıdır. Her gezegende farklı zorluklar ve bulmacalarla karşılaşacak olan oyuncular, becerilerini geliştirirken aynı zamanda çevre bilincini de artıracaktır.
 
-- **Oyunun ikincil amacı**:  Otobüs,metro,bekleme alanları v.b yerlerde oyunculara görsel ve işitsel bir oyun deneyimi sunarak keyifli zaman geçirmesini sağlamaktır.
+- **Oyunun birincil amacı**: Galaktik Toplayıcı, kaynakların bilinçsiz tüketimi sonucu yaşamın tehdit altında olduğu bir geleceği temsil ediyor. Oyunda ana amacımız, oyunculara kaynakların kıymetini ve sürdürülebilir kullanımının önemini anlatarak çevre bilincini artırmaktır.
+
+- **Oyunun ikincil amacı**: Oyunculara etkiliyici bir atmosferle birlikte görsel ve işitsel bir oyun deneyimi sunarak keyifli zaman geçirmesini sağlamaktır.
 
 ## Ürün Özellikleri
 
-- Oyunun boyutu düşük olması sebebiyle mobil şebekelerden kolaylıkla indirilebilir.
-- UI tasarımıyla oyuncu tarafından kolay keşfedilebilir.
-- Bir çok platformda çalıştırılabilir.
-- Ücretsizdir.
-- Oyunun türü aksiyon-spordur.
+- Aksiyon-macera türünde bir oyundur.
+- Sonsuz koşu mekaniği üzerine kurulu, eşya toplama ve engellerden kaçınma odaklıdır.
+- Kullanıcı dostu arayüzü sayesinde kolaylıkla oynanabilir.
+- Düşük dosya boyutu sayesinde mobil ağlardan kolaylıkla indirilebilir.
+- Çoklu platform desteği olacaktır.
+- Ücretsiz olarak sunulur, gelir modeli reklamlar üzerine kuruludur.
+- Çevresel farkındalığı artırmayı hedefleyen bir alt metne sahiptir.
 
 ## Hedef Kitle
 
-- Bölümsüz oyun oynamayı sevenler
-- Çevre koruma hassasiyeti olan oyuncular
-- Oyunda görsel ve işitsel keyif almak isteyenler
+- Macerayı ve keşfetmeyi sevenler.
+- Tempolu ve kısa oyun severler.
+- Çevre koruma ve sürdürülebilirlik hassasiyeti olan oyuncular.
+- Oyundan görsel ve işitsel keyif almak isteyenler.
 
 ## Juriye Not
-
-Final haftasının olması ve iş hayatının yoğun olması sebebiyle oyunun daha çok tasarım ve başlangıç kodlama işlemleri yapılmıştır.Takım takviminin ikinci sprintte daha uygun olmasıyla oyunun büyük bölümü bu tarihte yapılmak üzere planlanmıştır.
-
-
 ---
 
 # Sprint 1
+- **Sprint Notları**
+Final haftasının olması ve iş hayatının yoğun olması sebebiyle oyunun tasarımı yapılmıştır. Takım takviminin ikinci sprintte daha uygun olmasıyla oyunun yazılım ayağının başlangıcı 2. sprint'de yapılmak üzere planlanmıştır.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
 
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: İlk sprintte tasarımla ilgili tüm işlerin yapılması kararlaştırıldı. Toplamda 120 puan etmektedir. Diğer sprintlerde de buna benzer puan tamamlama hedefi konulmuştur.
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp ve Discord üzerinden yapılmasına karar verilmiştir.
- Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
+- **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir. Duruma göre WhatsApp üzerinden de ilerlenebileceği kararlaştırılmıştır. Genelde sesli olarak yapılmıştır. Bazı örnekler: 
  [Sprint 1 Daily Scrum Chats](https://docs.google.com/document/d/1QnVF07FE2xcGWiqvcbb8hiIMB0tVE6Ld3ejL8FWiTNY/edit?usp=sharing)
 
 - **Sprint board update**: Sprint board screenshotları: 
 
-  ![Backlog 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/SSBacklog.PNG) 
+  ![sprint board](ProjectFiles/Sprint1/Sprint.png)
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
-  ![Screenshot 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/Oyun-Ekrani.png)
-  ![Screenshot 2](https://github.com/U30Bootcamp/BootcampU30/blob/master/KarakterBaslan%C4%B1cTasar%C4%B1m.png)
+  |![astronot tasarımı](ProjectFiles/Sprint1/Astronot.png)|![astronot blender](ProjectFiles/Sprint1/AstronotBlender.png)|![astronot blender renklendirilmiş](ProjectFiles/Sprint1/AstronotModeli.png)|
+  |------------------------|---------------------------------------|---------------------------------|
+  |![oyun giriş ekranı](ProjectFiles/Sprint1/OyunGirisEkrani.png)|![oyun ekranı](ProjectFiles/Sprint1/OyunEkrani.png)|![oyun ölüm ekranı](ProjectFiles/Sprint1/OyunOlumEkrani.png)
   
-  ![Screenshot 3](https://github.com/U30Bootcamp/BootcampU30/blob/master/Karakter.PNG)
+
 - **Sprint Review**: 
-Alınan kararlar: Oyun tasarımı yapılmış,başlangıç kısmı kodlanmış,karakter modellenmiş ve oyun karşılama sayfası yapılmıştır.İkinci sprintte verilen görevlerin zamanında yapılması kararı alınmıştır.
+  - Oyun tasarımı yapılmış, game design document oluşturulmuş, karakter modellenmiş ve oyun UI konsept tasarımları yapılmıştır. 
 
 - **Sprint Retrospective:**
+  - İkinci sprintte verilen görevlerin zamanında yapılması ve iş bölümü kararı alınmıştır.
   - Roller ile ilgili düzenleme yapılmıştır.
-  - Görevler takım içinde yeniden dağıtılmıştır.
   - Takım üyelerinin verilen görevleri zamanında ve istenilen şekilde yapılması istenmiştir.
- 
-
-
+  - Hedeflerin süre göz önünde bulundurularak küçültümesi kararlaştırılmıştır.
 ---
 
 ## Product Backlog URL
