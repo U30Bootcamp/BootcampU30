@@ -1,20 +1,14 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class MovementController : MonoBehaviour
 {
-    [SerializeField] public float moveSpeed;
-    [SerializeField] public float rotateSpeed;
-    [SerializeField] public float jumpForce;
-
-    private Rigidbody playerRigidbody;
-    private Vector2 m_Rotation;
-    private Vector2 m_Look;
-    private Vector2 m_Move;
-
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private float jumpForce;
+    
+    private Rigidbody _playerRigidbody;
+    private Vector2 _mMove;
+    
     public void OnJump(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -25,50 +19,65 @@ public class MovementController : MonoBehaviour
     
     public void OnMove(InputAction.CallbackContext context)
     {
-        m_Move = context.ReadValue<Vector2>();
-    }
-
-    public void OnLook(InputAction.CallbackContext context)
-    {
-        m_Look = context.ReadValue<Vector2>();
+        _mMove = context.ReadValue<Vector2>();
     }
 
     private void Awake()
     {
-        playerRigidbody = GetComponent<Rigidbody>();
+        _playerRigidbody = GetComponent<Rigidbody>();
     }
 
     private void FixedUpdate()
     {
-        // Update orientation first, then move. Otherwise move orientation will lag
-        // behind by one frame.
-        Look(m_Look);
-        Move(m_Move);
-    }
+        Move(_mMove);
 
+        // Fix float jump, increase speed when falling down
+        if (_playerRigidbody.velocity.y < 0f)
+        {
+            _playerRigidbody.velocity -= Vector3.down * Physics.gravity.y * Time.deltaTime;
+        }
+    }
+    private bool IsGrounded()
+    {
+        Ray ray = new Ray(this.transform.position + Vector3.up * 0.25f, Vector3.down);
+        if (Physics.Raycast(ray, out RaycastHit hit, 0.3f))
+            return true;
+        else
+            return false;
+    }
     private void Jump()
     {
-        playerRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        // if (IsGrounded())
+        {
+            _playerRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
     }
     
     private void Move(Vector2 direction)
     {
-        if (direction.sqrMagnitude < 0.01)
+        if (direction.sqrMagnitude < 0.01f)
             return;
         var scaledMoveSpeed = moveSpeed * Time.deltaTime;
-        // For simplicity's sake, we just keep movement in a single plane here. Rotate
-        // direction according to world Y rotation of player.
+        // Rotate direction according to world Y rotation of player.
         var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, 0, direction.y);
         transform.position += move * scaledMoveSpeed;
+        
+        // Fix mevlana 
+        Spin();
     }
 
-    private void Look(Vector2 rotate)
+    private void Spin()
     {
-        if (rotate.sqrMagnitude < 0.01)
-            return;
-        var scaledRotateSpeed = rotateSpeed * Time.deltaTime;
-        m_Rotation.y += rotate.x * scaledRotateSpeed;
-        m_Rotation.x = Mathf.Clamp(m_Rotation.x - rotate.y * scaledRotateSpeed, -89, 89);
-        transform.localEulerAngles = m_Rotation;
+        Vector3 rotationVelocity = _playerRigidbody.velocity;
+        rotationVelocity.y = 0f;
+
+        if (rotationVelocity.sqrMagnitude < 0.01f)
+        {
+            _playerRigidbody.angularVelocity = Vector3.zero;
+        }
+        else
+        {
+            _playerRigidbody.rotation = Quaternion.LookRotation(rotationVelocity, Vector3.up);
+        }
     }
 }
