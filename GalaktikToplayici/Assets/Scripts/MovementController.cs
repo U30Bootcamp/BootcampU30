@@ -37,17 +37,12 @@ public class MovementController : MonoBehaviour
             _playerRigidbody.velocity -= Vector3.down * Physics.gravity.y * Time.deltaTime;
         }
     }
-    private bool IsGrounded()
-    {
-        Ray ray = new Ray(this.transform.position + Vector3.up * 0.25f, Vector3.down);
-        if (Physics.Raycast(ray, out RaycastHit hit, 0.3f))
-            return true;
-        else
-            return false;
-    }
+
     private void Jump()
     {
-        // if (IsGrounded())
+        bool raycastHit = Physics.Raycast(transform.position, Vector3.down, 1.01f);
+
+        if (raycastHit)
         {
             _playerRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
@@ -61,7 +56,7 @@ public class MovementController : MonoBehaviour
         // Rotate direction according to world Y rotation of player.
         var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, 0, direction.y);
         transform.position += move * scaledMoveSpeed;
-        
+
         // Fix mevlana 
         Spin();
     }
