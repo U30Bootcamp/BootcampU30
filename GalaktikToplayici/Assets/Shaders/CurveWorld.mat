@@ -48,6 +48,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _CurveAmount: 0.01
+    - _EnableShader: 1
+    - _EnableTrueCurve: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
