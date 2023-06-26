@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GameOverManager : MonoBehaviour
+public class GameOverUIManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverCanvas;
 
