@@ -3,6 +3,7 @@ using UnityEngine;
 public class GameOverUIManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverCanvas;
+    [SerializeField] private GameObject gameCanvas;
 
     private void Awake()
     {
@@ -12,6 +13,7 @@ public class GameOverUIManager : MonoBehaviour
     public void GameOverEvent()
     {
         Time.timeScale = 0f;
+        gameCanvas.SetActive(false);
         gameOverCanvas.SetActive(true);
     }
 

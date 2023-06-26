@@ -1,21 +1,28 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameUIManager : MonoBehaviour
 {
     [SerializeField] private IntegerScriptableObject oxygen;
-    
+    [SerializeField] private Slider oxygenSlider;
+
+    private void Start()
+    {
+        SetOxygenSliderValue(oxygen.number);
+    }
+
     private void OnEnable()
     {
-        oxygen.IntChangeEvent.AddListener(PrintOxygen);
+        oxygen.IntChangeEvent.AddListener(SetOxygenSliderValue);
     }
 
     private void OnDisable()
     {
-        oxygen.IntChangeEvent.RemoveListener(PrintOxygen);
+        oxygen.IntChangeEvent.RemoveListener(SetOxygenSliderValue);
     }
 
-    public void PrintOxygen(int amount)
+    private void SetOxygenSliderValue(int amount)
     {
-        Debug.Log("Oxygen level: " + amount);
+        oxygenSlider.value = amount / 100.0f;
     }
 }

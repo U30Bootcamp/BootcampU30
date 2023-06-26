@@ -91,7 +91,6 @@ public class MovementController : MonoBehaviour
 
     private void GameOver()
     {
-        Debug.Log("game over UI");
         gameOverEvent.Invoke();
     }
 

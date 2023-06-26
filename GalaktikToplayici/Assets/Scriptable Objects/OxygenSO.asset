@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 057a8539f634543cba25bee9c23ae80b, type: 3}
-  m_Name: OxygenScriptableObject
+  m_Name: OxygenSO
   m_EditorClassIdentifier: 
   initalNumber: 100
