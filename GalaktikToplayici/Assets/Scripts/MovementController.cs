@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class MovementController : MonoBehaviour
@@ -8,7 +9,8 @@ public class MovementController : MonoBehaviour
     [SerializeField] private float maxForce;
     [SerializeField] private float jumpHeight;
     [SerializeField] private float fallRate;
-    
+    [SerializeField] private UnityEvent gameOverEvent;
+
     private Rigidbody _playerRigidbody;
     private Vector2 _mMove;
     private bool _isFalling;
@@ -90,6 +92,7 @@ public class MovementController : MonoBehaviour
     private void GameOver()
     {
         Debug.Log("game over UI");
+        gameOverEvent.Invoke();
     }
 
     private void OnTriggerEnter(Collider other)

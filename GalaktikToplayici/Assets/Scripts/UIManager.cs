@@ -6,7 +6,7 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private OxygenScriptableObject oxygen;
-
+    
     private void OnEnable()
     {
         oxygen.OxygenChangeEvent.AddListener(PrintOxygen);
