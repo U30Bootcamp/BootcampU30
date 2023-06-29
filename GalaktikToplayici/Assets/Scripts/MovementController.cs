@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -10,7 +11,8 @@ public class MovementController : MonoBehaviour
     [SerializeField] private float jumpHeight;
     [SerializeField] private float fallRate;
     [SerializeField] private UnityEvent gameOverEvent;
-
+    [SerializeField] private GameObject explosionParticles;
+    
     private Rigidbody _playerRigidbody;
     private Vector2 _mMove;
     private bool _isFalling;
@@ -98,14 +100,23 @@ public class MovementController : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
         {
+            Instantiate(explosionParticles, transform.position, Quaternion.identity);
             _isDead = true;
-            _playerRigidbody.AddForce(Vector3.back * 10f, ForceMode.Impulse);
-            GameOver();
+            _playerRigidbody.AddForce((Vector3.back + Vector3.up) * 10f, ForceMode.Impulse);
+            StartCoroutine(WaitForGameOver());
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("FallLimit"))
         {
+            Instantiate(explosionParticles, transform.position, Quaternion.identity);
             _isDead = true;
-            GameOver();
+            _playerRigidbody.AddForce(Vector3.up * 10f, ForceMode.Impulse);
+            StartCoroutine(WaitForGameOver());
         }
+    }
+    
+    IEnumerator WaitForGameOver()
+    {
+        yield return new WaitForSeconds(0.9f);
+        GameOver();
     }
 }

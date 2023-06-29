@@ -111,9 +111,10 @@ GameObject:
   - component: {fileID: 7504070973879837607}
   - component: {fileID: 7504070973879837624}
   - component: {fileID: 7504070973879837625}
+  - component: {fileID: 316351535}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,6 +181,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 316351535}
+        m_TargetAssemblyTypeName: DistanceCounter, Assembly-CSharp
+        m_MethodName: GameOverEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  explosionParticles: {fileID: 0}
 --- !u!114 &7504070973879837624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +276,21 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &316351535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504070973879837602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6315127ab1ff41f981696a522e26fc15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: {fileID: 11400000, guid: aae1939f3c54c4aa4bf3e684fd364946, type: 2}
+  highScore: {fileID: 11400000, guid: e1d608833e80a467285927555b0428ce, type: 2}
+  checkpoint: {fileID: 0}
 --- !u!1 &7504070974189798712
 GameObject:
   m_ObjectHideFlags: 0
