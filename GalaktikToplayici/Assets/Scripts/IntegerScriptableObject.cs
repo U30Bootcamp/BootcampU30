@@ -29,4 +29,10 @@ public class IntegerScriptableObject : ScriptableObject
         number += amount;
         IntChangeEvent.Invoke(number);
     }
+    
+    public void SetInt(int amount)
+    {
+        number = amount;
+        IntChangeEvent.Invoke(number);
+    }
 }

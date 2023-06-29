@@ -102,13 +102,14 @@ public class MovementController : MonoBehaviour
         {
             Instantiate(explosionParticles, transform.position, Quaternion.identity);
             _isDead = true;
-            _playerRigidbody.AddForce(Vector3.back * 10f, ForceMode.Impulse);
+            _playerRigidbody.AddForce((Vector3.back + Vector3.up) * 10f, ForceMode.Impulse);
             StartCoroutine(WaitForGameOver());
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("FallLimit"))
         {
             Instantiate(explosionParticles, transform.position, Quaternion.identity);
             _isDead = true;
+            _playerRigidbody.AddForce(Vector3.up * 10f, ForceMode.Impulse);
             StartCoroutine(WaitForGameOver());
         }
     }
@@ -117,6 +118,5 @@ public class MovementController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.9f);
         GameOver();
-
     }
 }
