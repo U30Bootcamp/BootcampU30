@@ -87,3 +87,46 @@ Final haftasının olması ve iş hayatının yoğun olması sebebiyle oyunun ta
 ## Product Backlog URL
 
 [Unity Team U30 Miro Backlog Board](https://miro.com/app/board/uXjVM9sms6M=/)
+
+
+---
+
+# Sprint 2
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+
+- **Daily Scrum**: Daily Scrum toplantıları whatsApp ve discord üzerinden yapılmaya devam edilmiştir. Daily Scrum toplantısı word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://docs.google.com/document/d/1QnVF07FE2xcGWiqvcbb8hiIMB0tVE6Ld3ejL8FWiTNY/edit)
+
+- **Sprint board update**: Sprint board screenshotları:
+  
+![Backlog 2](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/2_Sprint.PNG)
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  
+  ![Screenshot 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/astro-game-1.gif)
+  
+  ![Screenshot 2](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/astro-game-2.gif)
+  
+  ![Screenshot 3](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/astro-game-3.gif)
+  
+- **Sprint Review**: 
+Alınan kararlar: Oyunun modellenmesi yapılmış,UI bağlantıları yapılmış,genel mekanikler tamamlanıp kodlanmış olup var olan tasarımın iyileştirilmesi,müziklerin ve efektlerin eklenmesi,mekaniklerin istenilen şekilde çalışmasının sağlanması,mobil kullanımda test edilmesi kararları alınmıştır.
+
+Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal,Selin Tepe,Büşra Özer
+
+- **Sprint Retrospective:**
+  - Takım üyelerinin gelecek sprintlerde daha fazla aktif olması gerektiğine vurgu yapılmıştır.
+  - Verilen sorumlulukların zamanında yapılması istenmiştir.
+  - Takvimde görseli iyileştirme yönünde uygun zaman aralığı oluşturularak düzenleme imkanı bırakılmıştır.
+    
+
+---
+
+## Product Backlog URL
+
+[Unity Team U30 Miro Backlog Board](https://miro.com/app/board/uXjVM9sms6M=/)
+
+
+---
+
