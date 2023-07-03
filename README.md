@@ -93,7 +93,13 @@ Final haftasının olması ve iş hayatının yoğun olması sebebiyle oyunun ta
 
 # Sprint 2
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+- **Sprint Notları**
+Ekip takviminin 2. sprintte daha uygun olması sebebiyle modelleme ve kodlama işlerinin ana bileşenlerinin bu sprintte tamamlanması kararı alınmıştır.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 140 Puan
+
+
+- **Puan tamamlama mantığı**: İlk sprintte tasarımla ilgili işler tamamlanırken 2. sprint iş yoğunluğunun büyük bir kısmını içermesi sebebiyle toplam puana 140 puan olarak etki etmektedir. Diğer sprintlerde de buna benzer puan tamamlama hedefi konulmuştur.
 
 - **Daily Scrum**: Daily Scrum toplantıları whatsApp ve discord üzerinden yapılmaya devam edilmiştir. Daily Scrum toplantısı word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://docs.google.com/document/d/1QnVF07FE2xcGWiqvcbb8hiIMB0tVE6Ld3ejL8FWiTNY/edit)
 
