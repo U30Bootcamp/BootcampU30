@@ -8,6 +8,7 @@ public class IntegerScriptableObject : ScriptableObject
     public int number;
     [SerializeField] private int initalNumber;
     [NonSerialized] public UnityEvent<int> IntChangeEvent;
+    
 
     private void OnEnable()
     {
@@ -21,7 +22,8 @@ public class IntegerScriptableObject : ScriptableObject
     public void DecreaseInt(int amount)
     {
         number -= amount;
-        IntChangeEvent.Invoke(number);
+          IntChangeEvent.Invoke(number);  
+        
     }
     
     public void IncreaseInt(int amount)

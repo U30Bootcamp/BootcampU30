@@ -8,8 +8,7 @@ public class RainSystem : MonoBehaviour
     public float rainStartPointZ;
     public float rainEndPointZ;
     public ParticleSystem particleSystem;
-    public Armor armor;
-
+    public bool isRainEnabled = false;
     void Start()
     {
         particleSystem.Play();
@@ -22,10 +21,14 @@ public class RainSystem : MonoBehaviour
         if (playerRb.transform.position.z >= rainStartPointZ && playerRb.transform.position.z < rainEndPointZ)
         {
             particleSystem.Play();
+            isRainEnabled = true;
+
         }
         else if (playerRb.transform.position.z >= rainEndPointZ)
         {
             particleSystem.Stop();
+            isRainEnabled = false;
+
         }
     }
 }

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5555e056-d810-4852-88f5-ce0cbddfcb33" name="Changes" comment="" />
+    <list default="true" id="5555e056-d810-4852-88f5-ce0cbddfcb33" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaktikToplayici/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GalaktikToplayici/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WindScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WindScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/OxygenSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/OxygenSO.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Armor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Armor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntegerScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntegerScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementActions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RainSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RainSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/windTrail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/windTrail.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +21,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Armor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Actions/InputActionReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,6 +87,10 @@
       <workItem from="1687979613177" duration="7923000" />
       <workItem from="1688060260523" duration="2883000" />
       <workItem from="1688285675583" duration="7237000" />
+      <workItem from="1688892716648" duration="1000" />
+      <workItem from="1688893254990" duration="1196000" />
+      <workItem from="1689078563996" duration="1194000" />
+      <workItem from="1689182788320" duration="7713000" />
     </task>
     <servers />
   </component>

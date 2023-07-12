@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class windTrail : MonoBehaviour
+public class WindTrail : MonoBehaviour
 {
     public Wind _wind;
     public TrailRenderer _trailRenderer;
-    void Start()
-    {
-    }
-
+    
     void Update()
     { 
         Vector3 currentPosition = transform.position;
