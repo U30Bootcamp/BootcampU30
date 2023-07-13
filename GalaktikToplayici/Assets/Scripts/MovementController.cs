@@ -17,6 +17,7 @@ public class MovementController : MonoBehaviour
     private Vector2 _mMove;
     private bool _isFalling;
     private bool _isDead;
+    public AudioSource _audioSource;
     
     public void OnJump(InputAction.CallbackContext context)
     {
@@ -34,6 +35,7 @@ public class MovementController : MonoBehaviour
     private void Awake()
     {
         _playerRigidbody = GetComponent<Rigidbody>();
+        _audioSource.enabled = false;
     }
 
     private void FixedUpdate()
@@ -103,7 +105,11 @@ public class MovementController : MonoBehaviour
             Instantiate(explosionParticles, transform.position, Quaternion.identity);
             _isDead = true;
             _playerRigidbody.AddForce((Vector3.back + Vector3.up) * 10f, ForceMode.Impulse);
+
+            _audioSource.enabled = true;
+            _audioSource.Play();
             StartCoroutine(WaitForGameOver());
+            
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("FallLimit"))
         {

@@ -19,6 +19,7 @@ public class Wind : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        
     }
 
     void FixedUpdate()

@@ -4,15 +4,14 @@
     <list default="true" id="5555e056-d810-4852-88f5-ce0cbddfcb33" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaktikToplayici/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GalaktikToplayici/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WindScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WindScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/OxygenSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/OxygenSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Armor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Armor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntegerScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntegerScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementActions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleObjectEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleObjectEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RainSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RainSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/windTrail.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/windTrail.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Wind.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WindTrail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WindTrail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/save.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/save.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,8 @@
       <workItem from="1688892716648" duration="1000" />
       <workItem from="1688893254990" duration="1196000" />
       <workItem from="1689078563996" duration="1194000" />
-      <workItem from="1689182788320" duration="7713000" />
+      <workItem from="1689182788320" duration="8168000" />
+      <workItem from="1689243717798" duration="8257000" />
     </task>
     <servers />
   </component>

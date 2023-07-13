@@ -9,10 +9,11 @@ public class RainSystem : MonoBehaviour
     public float rainEndPointZ;
     public ParticleSystem particleSystem;
     public bool isRainEnabled = false;
+    public AudioSource _audioSource;
     void Start()
     {
         particleSystem.Play();
-
+        _audioSource.enabled = false;
     }
 
     void Update()
@@ -22,13 +23,19 @@ public class RainSystem : MonoBehaviour
         {
             particleSystem.Play();
             isRainEnabled = true;
-
+            if (isRainEnabled)
+            {
+                _audioSource.enabled = true;
+            }
         }
-        else if (playerRb.transform.position.z >= rainEndPointZ)
+
+        
+        else 
         {
             particleSystem.Stop();
             isRainEnabled = false;
-
+            _audioSource.enabled = false;
         }
+        
     }
 }
