@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
@@ -15,6 +16,7 @@ public class Wind : MonoBehaviour
     private bool isApplyingForce = false;
     private Vector3 forceDirection;
     public int minTime, maxTime; 
+    public MovementController _MovementController;
 
     void Start()
     {
@@ -45,7 +47,15 @@ public class Wind : MonoBehaviour
             }
             else
             {
-                rb.AddForce(forceDirection * movementSpeed, ForceMode.Impulse);
+                if (_MovementController.GetIsMoving())
+                {
+                    rb.AddForce(forceDirection * (movementSpeed + 20), ForceMode.Impulse);
+                }
+                else
+                {
+                    rb.AddForce(forceDirection * movementSpeed, ForceMode.Impulse);
+
+                }
             }
         }
     }

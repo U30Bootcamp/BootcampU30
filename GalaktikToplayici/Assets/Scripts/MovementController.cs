@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -18,12 +19,16 @@ public class MovementController : MonoBehaviour
     private bool _isFalling;
     private bool _isDead;
     public AudioSource _audioSource;
+    private bool isJumping = false;
+    private bool isMoving;
     
     public void OnJump(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
             Jump(3.01f, 1.5f);
+            isJumping = true;
+
         }
     }
     
@@ -69,10 +74,14 @@ public class MovementController : MonoBehaviour
     private void Move(Vector2 direction)
     {
         if (_isDead)
-            return;    
+            return;
 
         if (direction == Vector2.zero)
+        {
+            this.isMoving = false;
             return;
+        }
+            
 
         Vector3 currentVelocity = _playerRigidbody.velocity;
         Vector3 targetVelocity = new Vector3(direction.x, 0, direction.y) * moveSpeed;
@@ -85,6 +94,7 @@ public class MovementController : MonoBehaviour
         
         _playerRigidbody.AddForce(velocityChange, ForceMode.VelocityChange);
         Jump(1.01f, 1f); // astronot yürüyüşü için zıplama ekler
+        bool isMoving = true;
     }
 
     private bool ShootRaycast(float maxHeightFromObject)
@@ -124,5 +134,20 @@ public class MovementController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.9f);
         GameOver();
+    }
+
+    public bool GetIsJumping()
+    {
+        return isJumping;
+    }
+
+    public bool GetIsFalling()
+    {
+        return _isFalling;
+    }
+
+    public bool GetIsMoving()
+    {
+        return isMoving;
     }
 }

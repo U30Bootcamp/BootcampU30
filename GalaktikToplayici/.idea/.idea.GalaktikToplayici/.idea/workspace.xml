@@ -3,15 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="5555e056-d810-4852-88f5-ce0cbddfcb33" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaktikToplayici/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GalaktikToplayici/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WindScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WindScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleObjectEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleObjectEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AudioTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AudioTestScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RainSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RainSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Wind.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WindTrail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WindTrail.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/save.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/save.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/character.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/egg.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/endless.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/jellyfish.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/plant.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/platform.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/rock.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/rock1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/rock2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/rock3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/seed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/shield.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/soil.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/untitled.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/water.fbx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +103,8 @@
       <workItem from="1689078563996" duration="1194000" />
       <workItem from="1689182788320" duration="8168000" />
       <workItem from="1689243717798" duration="8257000" />
+      <workItem from="1689420356975" duration="631000" />
+      <workItem from="1689459058300" duration="2224000" />
     </task>
     <servers />
   </component>
