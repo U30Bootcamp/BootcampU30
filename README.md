@@ -119,7 +119,7 @@ Ekip takviminin 2. sprintte daha uygun olması sebebiyle modelleme ve kodlama i�
 - **Sprint Review**: 
 Alınan kararlar: Oyunun modellenmesi yapılmış,UI bağlantıları yapılmış,genel mekanikler tamamlanıp kodlanmış olup var olan tasarımın iyileştirilmesi,müziklerin ve efektlerin eklenmesi,mekaniklerin istenilen şekilde çalışmasının sağlanması,mobil kullanımda test edilmesi kararları alınmıştır.
 
-Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal,Selin Tepe,Büşra Özer
+   Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal,Selin Tepe,Büşra Özer
 
 - **Sprint Retrospective:**
   - Takım üyelerinin gelecek sprintlerde daha fazla aktif olması gerektiğine vurgu yapılmıştır.
@@ -142,10 +142,10 @@ Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal
 
 
 - **Sprint Notları**
-  
+
 3. sprintte oyunun eksik kalan modelleme ve kodlama işlerine yoğunlaşılmıştır.Oyunun planlanan platformda çalışma kontrolleri yapılmış olup hedefe uygun şekilde tamamlanmıştır.
    
- **Sprint içinde tamamlanması tahmin edilen puan**: 80
+ - **Sprint içinde tamamlanması tahmin edilen puan**: 80
 
  - **Puan tamamlama mantığı**: Ekip takviminin uygunluğu 2. sprint olması sebebiyle iş yoğunluğu son sprintte azalarak toplam puana 80 puan olarak etki etmektedir. Diğer sprintlerde de buna benzer puan tamamlama hedefi konulmuştur.
  
@@ -160,17 +160,19 @@ Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal
   
   ![Screenshot 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/OyunTan%C4%B1t%C4%B1m1.PNG)
   
-  ![Screenshot 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/OyunTan%C4%B1t%C4%B1m2.PNG)
+
+  ![Screenshot 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/OyunSonHali.gif)
 
 - **Sprint Review**:
-  
-Alınan kararlar: Oyunun modellenmesi bitirilmiş,genel çalışma kontrolleri yapılmış,yayınlanacak platform uyumları tamamlanmıştır.Hedefe uygun bir çalışma yapıldığı için ekip üyeleri tebrik edilmiştir.
 
-Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal,Selin Tepe,Büşra Özer
+  Alınan kararlar: Oyunun modellenmesi bitirilmiş,genel çalışma kontrolleri yapılmış,yayınlanacak platform uyumları tamamlanmıştır.Hedefe uygun bir çalışma yapıldığı için ekip üyeleri tebrik edilmiştir.
+
+   Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal,Selin Tepe,Büşra Özer
 
 - **Sprint Retrospective:**
   
   - Verilen sorumluluklar ekip üyeleri tarafından yerine getirilerek amaca ulaşılmıştır.
+  - Uyumlu yürütülen takım çalışması için ekip üyeleri tebrik edilmiştir.
  
 ---
 
