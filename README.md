@@ -136,3 +136,48 @@ Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal
 
 ---
 
+---
+
+# Sprint 3
+
+
+- **Sprint Notları**
+  
+3. sprintte oyunun eksik kalan modelleme ve kodlama işlerine yoğunlaşılmıştır.Oyunun planlanan platformda çalışma kontrolleri yapılmış olup hedefe uygun şekilde tamamlanmıştır.
+   
+ **Sprint içinde tamamlanması tahmin edilen puan**: 80
+
+ - **Puan tamamlama mantığı**: Ekip takviminin uygunluğu 2. sprint olması sebebiyle iş yoğunluğu son sprintte azalarak toplam puana 80 puan olarak etki etmektedir. Diğer sprintlerde de buna benzer puan tamamlama hedefi konulmuştur.
+ 
+- **Daily Scrum**: Daily Scrum toplantılarının büyük çoğunluğu Discord üzerinden yapılmıştır. Whatsappdan da hızlı iletişim kurularak etkileşim halinde kalınmıştır. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://docs.google.com/document/d/1QnVF07FE2xcGWiqvcbb8hiIMB0tVE6Ld3ejL8FWiTNY/edit)
+
+- **Sprint board update**: Sprint board screenshotları:
+  
+![Backlog 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/3_Sprint.PNG) 
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  
+  ![Screenshot 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/OyunTan%C4%B1t%C4%B1m1.PNG)
+  
+  ![Screenshot 1](https://github.com/U30Bootcamp/BootcampU30/blob/master/ProjectFiles/Sprint1/OyunTan%C4%B1t%C4%B1m2.PNG)
+
+- **Sprint Review**:
+  
+Alınan kararlar: Oyunun modellenmesi bitirilmiş,genel çalışma kontrolleri yapılmış,yayınlanacak platform uyumları tamamlanmıştır.Hedefe uygun bir çalışma yapıldığı için ekip üyeleri tebrik edilmiştir.
+
+Sprint Review katılımcıları: Kadir Yunus Demir,Can Altıntaş,Emirhan Ünsal,Selin Tepe,Büşra Özer
+
+- **Sprint Retrospective:**
+  
+  - Verilen sorumluluklar ekip üyeleri tarafından yerine getirilerek amaca ulaşılmıştır.
+ 
+---
+
+## Product Backlog URL
+
+[Unity Team U30 Miro Backlog Board](https://miro.com/app/board/uXjVM9sms6M=/)
+
+
+---
+
