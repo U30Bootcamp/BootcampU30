@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Armor
+  - metaor
+  - zemin
+  - spaceship
+  - water
+  - enemy
+  - shield
   layers:
   - Default
   - TransparentFX
