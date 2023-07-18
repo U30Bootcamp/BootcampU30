@@ -17,9 +17,9 @@ public class Road : MonoBehaviour
     {
         for (int i = 0; i < 3; i++)
         {
-            GameObject newRoad = Instantiate(roads, new Vector3(0, 0, createDistance), roads.transform.rotation);
+            GameObject newRoad = Instantiate(roads, new Vector3(0, -10f, createDistance), roads.transform.rotation);
             clone.Add(newRoad);
-            createDistance += 5f;
+            createDistance += 100f;
         }
     }
 
@@ -27,7 +27,7 @@ public class Road : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(this.gameObject.transform.position, clone[index].transform.position);
-        if (distance > 5)
+        if (distance > 100)
         {
             if (index <2)
             {
@@ -37,8 +37,8 @@ public class Road : MonoBehaviour
             {
                 index = 0;
             }
-            clone[cloneindex].transform.position = new Vector3(0, 0, createDistance);
-            createDistance += 5f;
+            clone[cloneindex].transform.position = new Vector3(0, -10f, createDistance);
+            createDistance += 100f;
             cloneindex = index;
 
         }

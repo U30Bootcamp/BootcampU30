@@ -19,7 +19,7 @@ public class CollectableObjects : MonoBehaviour
     {
         
             timer += Time.deltaTime;
-            if (timer > 0.75f)
+            if (timer > 2f)
             {
                 randomIndex = Random.Range(0, collectables.Length);
                 timer = 0;
@@ -27,9 +27,9 @@ public class CollectableObjects : MonoBehaviour
             randPos = Random.Range(0, 2);
             randNumber = Random.Range(-250, -100);
             distance = player.transform.position.z - collectables[randomIndex].transform.position.z;
-            if (distance  > 5f)
+            if (distance  > 30f)
             {
-                collectables[randomIndex].transform.position = new Vector3(spawnPos[randPos].transform.position.x, 0.27f, this.player.transform.position.z + 5f);
+                collectables[randomIndex].transform.position = new Vector3(spawnPos[randPos].transform.position.x, -8f, this.player.transform.position.z + 50f);
             
             }
         }
